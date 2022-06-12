@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexa govexa</title>
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <header>
+        <center><h1><b>Саламыч я Лехидзе </b></h1></center>
+</header>
+<hr>
+<div><center><img src="photo.jpg" width="400"></center></div>
+<div>
+    <p><b>Я люблю качаться и не думать ни о чем. Мои анаболики напали на мой мозг и не дают ему работать</b></p>
+</div>
+<hr>
+<br>
+<div>
+    <h4>Заполни небольшую форму и получи от меня фото</h4>
+    <p>P.S. не скажу какого характера</p>
+</div>
+<form action="" method="post">
+    Имя
+    <input type="text" name="name" >
+    Размер твоего агрегата
+    <input type="text" name="razmer" placeholder="введи большой">
+    <br>
+    <button type="submit">Отправить</button>
+</form>
+<?php
+    if ($_POST['razmer'] =='большой'){
+        echo "<button><a href=fhoto.html>Жми</a></button>";
+    } else {
+        echo "";
+    }
+
+?>
+</body>
+</html>
